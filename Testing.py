@@ -9,3 +9,5 @@ assert a.edad == 15
 a.cumplirAnhos()
 
 assert a.edad == 16
+
+assert a.edad == 15
