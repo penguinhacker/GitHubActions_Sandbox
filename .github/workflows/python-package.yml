@@ -23,3 +23,5 @@ jobs:
     - name: Say Hello
       run: |
         echo "Hola!"
+    - name: Test
+      run: python3 Testing.py
