@@ -2,9 +2,6 @@ name: Rust
 
 on:
   push:
-    branches:
-      - rama_nueva
-      - main
   
 env:
   CARGO_TERM_COLOR: always
