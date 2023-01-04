@@ -2,6 +2,7 @@ name: Rust
 
 on:
   push:
+    branches: [master, rama_nueva]
   pull_request:
   
 env:
