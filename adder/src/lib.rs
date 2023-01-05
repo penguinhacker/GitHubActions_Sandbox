@@ -1,5 +1,5 @@
 pub fn add(left: usize, right: usize) -> usize {
-    left + right
+    left - right
 }
 
 #[cfg(test)]
@@ -9,7 +9,7 @@ mod tests {
     #[test]
     fn test1() {
         let result = add(2, 2);
-        assert_eq!(result, 4);
+        assert_eq!(result, 112);
     }
 
     #[test]
