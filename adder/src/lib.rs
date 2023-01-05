@@ -9,7 +9,7 @@ mod tests {
     #[test]
     fn test1() {
         let result = add(2, 2);
-        assert_eq!(result, 112);
+        assert_eq!(result, 112123);
     }
 
     #[test]
